@@ -1,0 +1,134 @@
+.logo {
+  width: 150px; /* Set the width of the logo */
+  height: 150px; /* Set the height of the logo */
+}
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+
+body.klp-client {
+    font-family: 'PT Sans', sans-serif;
+    background: url(https://login.swissid.ch/login/img/background-circle-post.446ace4d.svg),-webkit-gradient(linear,left top,left bottom,from(#f7f7f7),to(#efefef));
+    background-position: 50% -7825px,0 0;
+    background-size: 8000px 8000px,100% 100%;
+    background-repeat: no-repeat;
+}
+
+form {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 5px;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+input[type="tel"] {
+    width: 50%;
+    padding: 6px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 40px;
+
+}
+
+input[type="tel"]:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+div.error {
+    color: #e74c3c;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button[type="submit"] {
+    background-color: #000;
+    color: white;
+    font-size: 18px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+button[type="submit"]:focus {
+    outline: none;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+}
+
+iframe {
+    border: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
+form div {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    text-align: center;
+}
+form div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button[name="submit"] {
+    width: 50%;
+    height: 40px;
+    margin-top: 20px;
+}
+.caja-sombreada h3.no-recibe{
+	margin-bottom: 0px;
+	color: #000000;
+}
